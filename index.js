@@ -9,7 +9,7 @@ const generateId= (date)=>{
         date.split("T")[1].split(":").forEach(ele=>numericArray.push(parseFloat(ele)));
         var id =  numericArray.reduce(reducer);
        // log the new generated id, substr can be used to change the length of numberic ID
-        console.log(id.toString().replace(".","").substr(1,6));
+        return id.toString().replace(".","").substr(1,6);
    
     
 };

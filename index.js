@@ -21,4 +21,6 @@ const generateId= (date)=>{
  */
 const reducer = (accumulator, currentValue) => accumulator + currentValue;
 
-generateId(new Date().toISOString());
+module.exports={
+        generate : generateId
+};

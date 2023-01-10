@@ -6,5 +6,6 @@ var idGenerator = require("../index");
    
     it("Should return 6 digit long number", function(){
         var id = idGenerator.generate(new Date().toISOString()).length;
+         console.log(id.length);
         id.should.equal(6);
     });

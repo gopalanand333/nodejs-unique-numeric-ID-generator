@@ -25,9 +25,8 @@
   },
   "homepage": "https://github.com/gopalanand333/nodejs-unique-numeric-ID-generator#readme",
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^7.0.1",
-    "request": "^2.88.2"
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
   },
   "dependencies": {
     "assert": "^2.0.0"

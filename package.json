@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "This repository will generate unique numeric ID of size 6 numbers.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "start": "node index",
     "test": "node ./node_modules/mocha/bin/_mocha"

@@ -1,6 +1,6 @@
 {
   "name": "nodejs-unique-numeric-id-generator",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "This repository will generate unique numeric ID of size 6 numbers.",
   "main": "index.js",
   "types": "index.d.ts",
